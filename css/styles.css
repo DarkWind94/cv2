@@ -1,0 +1,199 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+
+}
+h1{
+  color: #343f56;
+  line-height: 2;
+  margin-top: 50px auto 0 auto;
+  font-size: 5.625rem;
+font-family: 'Sacramento', cursive;
+}
+h2{
+  font-weight: bold;
+  color: #343f56;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color:  #11999E;
+  }
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+p{
+    line-height: 2;
+}
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+
+
+.head{
+  color: #EAF6F6;
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  margin: 15px auto 0 10px;
+  font-size: 20px;
+}
+/* Main site body */
+.wrapper {
+    width: 940px;
+    margin: 0;
+    position: relative; /* Ensure absolute positioned child elements are relative to this*/
+}
+
+/* Absolute positioned wrapper for the element you want to fix position */
+.fixed-wrapper {
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+
+    /*left: -490px; /* Move this out to the left of the site body, leaving a 20px gutter */
+}
+
+/* The element you want to fix the position of */
+.fixed {
+    position: fixed;
+    background-color: #343f56;
+    height: 50px;
+    width: 100%;
+    opacity: 0.9;
+    /* Do not set top / left! */
+}
+
+.dev{
+  height: 45px;
+  margin: 0;
+  position: absolute;
+  left: 190px;
+  top: 3px;
+  right: 1114px;
+  bottom: 0;
+
+}
+.hello{
+  color: #66BFBF;
+}
+.my-skills{
+  color: #66BFBF;
+}
+.skill-row{
+  width: 50%;
+  margin:100px auto 170px auto;
+  text-align: left;
+
+}
+
+.skills{
+  margin-bottom: 210px;
+}
+.prof{
+  width: 200px;
+}
+.desktop{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+
+}
+.brush{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+
+}
+.top-container{
+  background-color: #87a7b3;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container{
+margin: 100px 0;
+}
+.bottom-container{
+
+}
+.pro{
+  text-decoration: underline;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 70px;
+
+}
+.bottom-cloud{
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+.a{
+  color:  #11999E;
+}
+.contact{
+  color:  #11999E;
+  width: 40%
+  margin: 40px auto 60px;
+}
+.copyright{
+  color: white;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.bottom-container{
+  background-color: #343f56;
+  padding: 50px 0 20px;
+}
+.copyright{
+  border-bottom: 0;
+}
+.contact-para{
+  margin-bottom: 100px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
